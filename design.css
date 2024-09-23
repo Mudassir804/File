@@ -1,0 +1,517 @@
+.navbar-brand{
+    padding-left: -10px;
+   
+    margin-left: 10px;
+    margin-top: -20px;
+}
+#Ali .fixed-top{
+    box-shadow: 0 0.12rem   rgb(0 0 0 / 5%)
+}
+#Ali .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+#Ali .navbar-nav .nav-item .nav-link:hover{
+    color:red;
+}
+#Ali .navbar-toggler:focus{
+    box-shadow: none;
+}
+/*---------Home ----*/
+.home-banner-1, .home-banner-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    position: relative;
+  }
+  
+  .home-banner-1 {
+    background-image: url('assets/4\ pent.jpg');
+    margin-top: 10px;
+    
+  }
+  
+  .home-banner-2 {
+    background-image: url('assets/5\ jacket.jpg' ); 
+    color: rgb(3, 3, 3);
+    padding-top: 3px;
+    padding-bottom: 4px;
+  }
+   
+  .Asad .home-banner .home-banner-text{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+  .Asad .home-banner .home-banner-text h1{
+    font-size: 6rem;
+    
+  }
+  .Asad .carousel-indicators [data-bs-target] {
+    background-color: red;
+    height: 0.313rem;
+    width: 2.5rem;
+}
+.Asad .carousel-control-next .slider-icon,
+.Asad .carousel-control-prev .slider-icon {
+  font-size: 3rem;
+  font-weight: 100;
+  color: red;
+}
+
+
+
+.Asad .carousel-control-next-icon,
+.Asad .carousel-control-prev-icon {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+         /*------offer*/
+
+ 
+.shi{
+  padding-bottom:px;
+  line-height: 23px;
+}
+.danger{
+  color: rgb(207, 36, 36);
+  
+  
+ 
+}
+
+
+/*------shines*/
+
+.acha {
+  position: relative;
+  display: inline-block;
+  transition: 1s;
+  overflow: hidden; 
+}
+
+.acha:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; 
+  width: 200%; 
+  height: 100%;
+  
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.6s;
+}
+
+.acha:hover::before {
+  animation: light 1s forwards;
+}
+
+@keyframes light {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+  /*--------------bacground color*/
+}
+.mad {
+  position: relative;
+  display: inline-block;
+}
+.mad::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  margin-left: 40px;
+}
+.mad img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mud {
+  position: relative;
+  display: inline-block;
+}
+.mud::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 63px;
+  width: 250px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+.mud img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+}
+.mudas {
+  position: relative;
+  display: inline-block;
+}
+.mudas::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 49px; 
+  width: 255px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+ 
+}
+.mudas img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mudass {
+  position: relative;
+  display: inline-block;
+}
+.mudass::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40;
+  
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  margin-left: 30px;
+ 
+}
+.mudass img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*---------text overlay---------*/
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.faraz{
+  position: absolute;
+  top: 35%;
+  left: 2px; 
+  color :rgb(5, 0, 0);
+  padding-top: 6;
+  margin-block-start: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.far{
+  position: absolute;
+  top: 42%;
+  left: 30px; 
+  color :rgb(10, 0, 0);
+  padding-top: 10px;
+  margin-block-start: 20px;
+  
+  text-transform: uppercase;
+  
+}
+.fai{
+  
+    position: absolute;
+    top: 57%;
+    left: px; 
+    color :rgb(10, 0, 0);
+
+    margin-block-start: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+ background-color: rgb(219, 8, 8);
+  
+}
+.Aze{
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  color :rgb(5, 0, 0);
+  padding-top: 10px;
+  margin-block-start: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.Azee{
+  position: absolute;
+  top:  15%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(5, 0, 0);
+  padding-top: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  
+ 
+}
+.Azeem{
+  position: absolute;
+  top:25%;
+ 
+  color :rgb(5, 0, 0);
+  padding-top: 1px;
+  margin-block-start: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 100px;
+    height: 30px;
+ background-color: rgb(219, 8, 8);
+ left: 20%;
+ 
+}
+.Saw{
+  position: absolute;
+  top:10%;
+  left: 18%; 
+  color :rgb(5, 0, 0);
+  padding-top: 10px;
+  margin-block-start: 20px;
+
+  text-transform: uppercase;
+  
+ 
+}
+.Sawee{
+  position: absolute;
+  top:28%;
+  left: 22%; 
+  color :rgb(5, 0, 0);
+  padding-top: 10px;
+  margin-block-start: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+ 
+}
+.Saweed{
+  position: absolute;
+  top:55%;
+  left: 18%;
+  color :rgb(5, 0, 0);
+  padding-top: 1px;
+  margin-block-start: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 100px;
+    height: 30px;
+ background-color: rgb(219, 8, 8);
+}
+.Ham{
+  position: absolute;
+  top: 34%;
+  left: 62px; 
+  color :rgb(5, 0, 0);
+  padding-top: 6;
+  margin-block-start: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.Hamz{
+  position: absolute;
+  top: 40%;
+  left: 80px; 
+  color :rgb(10, 0, 0);
+  padding-top: 10px;
+  margin-block-start: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.Hamza{
+  position: absolute;
+    top: 57%;
+    left: 60px; 
+    color :rgb(10, 0, 0);
+
+    margin-block-start: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+ background-color: rgb(219, 8, 8);
+}
+
+
+
+ /*-------------Products Section---*/
+ 
+ .khan {
+  width: 150px;
+  margin-left: 470px;
+  background-color:black;
+}
+ 
+ .sting{
+  margin-left: 130px;
+  
+ }
+ .dani{
+  color: red;
+}
+.danis{
+  color: red;
+}
+.danish{
+  color: red;
+}
+
+ .card{
+  background-color: color(srgb red green blue);
+  margin-left: 110px;
+  margin-top: 5px;
+  background-color: rgba(15, 15, 14, 0.171);
+ }
+ .card:hover{
+  background-color: black;
+  color: aliceblue;
+   }
+  .spring{
+    width: 100%;
+    height: 50%;
+    }
+    
+    .khi{
+      margin-left: 600px;
+      margin-top: -110px;
+      color: aliceblue;
+      font-style: italic;
+    }
+    .khi:hover{
+      color: black;
+      transform: scale(1.2)
+       }
+       .kham{
+        width: 100px;
+        margin-left: 500px;
+       }
+       #days{
+        width: 70px;
+        height: 60px;
+        background-color: wheat;
+        float: left;
+      margin-left: 60px;
+        
+       }
+       #hr{
+        width: 70px;
+        height: 60px;
+        background-color: wheat;
+        float: left;
+        margin-left: 35px;
+       }
+       #min{
+        width: 70px;
+        height: 60px;
+        background-color: wheat;
+        float: left;
+        margin-left: 35px;
+       }
+       #sec{
+        width: 70px;
+        height: 60px;
+        background-color: wheat;
+        float: left;
+        margin-left: 35px;
+       }
+       .car{
+        margin-top: -3px;
+        margin-left: 165px;
+        background-color: rgba(15, 15, 14, 0.171);
+       
+       }
+       .car:hover{
+        background-color: black;
+        color: white;
+       }
+       .dre{
+        padding-left: 200px;
+        margin-top: -70px;
+        
+       }
+       .dollar{
+        margin-top: -45px;
+        margin-left: 180px;
+        font-size: 20px;
+       }
+       
+
+       /*----------- Testimonilas---------*/
+       #Testimonlias{
+        background-color: rgba(214, 212, 209, 0.288); 
+        color: rgb(10, 1, 1);  
+       
+       }
+     .Tal{
+        margin-left: 510px;
+        margin-top: 5px;
+     
+       }
+       .arfat{
+       border-radius: 50%;
+     margin-left: 500px;
+       } 
+       .minhas{
+        border-radius: 50%;
+        margin-left: 500px;
+       }
+   
+   .carousel-control-prev-icon{
+    background-color:RED;
+    margin-top: -90px;
+   }
+   .carousel-control-next-icon{
+    background-color:RED;
+    margin-top: -90px;
+   }
+  
+  
+  #bili{
+    width: 100%;
+    background-color: rgba(100, 98, 98, 0.062);
+  }
+ 
+ .rizwan{
+height: 20px;
+ } 
+.night{
+  margin-top: 60px;
+  margin-left: -169px;
+}
+#Fakhar{
+  width: 100%;
+  background-color: brown;
+  height: 50px;
+}
+.last{
+color: aliceblue;
+margin-top: 10px;
+font-size: 20px;
+}
